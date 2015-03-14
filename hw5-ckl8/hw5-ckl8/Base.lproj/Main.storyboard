@@ -682,10 +682,11 @@
         <!--Tab View Controller-->
         <scene sceneID="asr-dA-M9R">
             <objects>
-                <tabViewController selectedTabViewItemIndex="1" id="uJh-Bv-1aD" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="0" id="uJh-Bv-1aD" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem label="Path Draw Controller" identifier="" id="M54-Gp-ceZ"/>
                         <tabViewItem label="Shape Draw Controller" identifier="" id="YzC-mO-hv5"/>
+                        <tabViewItem id="JYe-sG-Qcp"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="Bgv-RX-zMk">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
@@ -696,25 +697,26 @@
                     <connections>
                         <segue destination="eyJ-zS-Cuk" kind="relationship" relationship="tabItems" id="uLT-Ov-6Vv"/>
                         <segue destination="rEG-KY-ENe" kind="relationship" relationship="tabItems" id="dKz-wW-GqX"/>
+                        <segue destination="qC4-HW-BtN" kind="relationship" relationship="tabItems" id="YH0-WW-4Es"/>
                     </connections>
                 </tabViewController>
                 <customObject id="yqx-Jz-n1W" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9" y="743"/>
+            <point key="canvasLocation" x="74" y="726"/>
         </scene>
         <!--Path Draw Controller-->
         <scene sceneID="Xan-Bh-JRc">
             <objects>
                 <viewController id="eyJ-zS-Cuk" customClass="PathDrawController" sceneMemberID="viewController">
                     <view key="view" id="yeH-XM-5r3">
-                        <rect key="frame" x="0.0" y="0.0" width="851" height="423"/>
+                        <rect key="frame" x="0.0" y="0.0" width="499" height="310"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPE-pP-Vou" customClass="PathDraw">
-                                <rect key="frame" x="11" y="35" width="0.0" height="0.0"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPE-pP-Vou" customClass="PathDraw">
+                                <rect key="frame" x="30" y="20" width="449" height="270"/>
                             </customView>
-                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Saj-tP-5xa">
-                                <rect key="frame" x="70" y="28" width="88" height="32"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Saj-tP-5xa">
+                                <rect key="frame" x="14" y="13" width="88" height="32"/>
                                 <buttonCell key="cell" type="push" title="Refresh" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CJm-9g-e2N">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -725,10 +727,12 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Saj-tP-5xa" firstAttribute="leading" secondItem="yeH-XM-5r3" secondAttribute="leading" constant="57" id="9ev-bJ-y63"/>
-                            <constraint firstItem="nPE-pP-Vou" firstAttribute="top" secondItem="yeH-XM-5r3" secondAttribute="top" constant="381" id="Jyo-RL-wrx"/>
-                            <constraint firstAttribute="trailing" secondItem="nPE-pP-Vou" secondAttribute="trailing" constant="692" id="ncA-Xp-Vuh"/>
-                            <constraint firstAttribute="bottom" secondItem="Saj-tP-5xa" secondAttribute="bottom" constant="33" id="xI6-le-Xab"/>
+                            <constraint firstItem="nPE-pP-Vou" firstAttribute="leading" secondItem="Saj-tP-5xa" secondAttribute="trailing" constant="8" symbolic="YES" id="Hsd-13-3Se"/>
+                            <constraint firstAttribute="bottom" secondItem="nPE-pP-Vou" secondAttribute="bottom" constant="20" id="Ln0-Vv-Z4l"/>
+                            <constraint firstItem="nPE-pP-Vou" firstAttribute="top" secondItem="yeH-XM-5r3" secondAttribute="top" constant="20" id="PL7-T4-LnA"/>
+                            <constraint firstAttribute="bottom" secondItem="Saj-tP-5xa" secondAttribute="bottom" constant="20" id="awE-4x-NNy"/>
+                            <constraint firstAttribute="trailing" secondItem="nPE-pP-Vou" secondAttribute="trailing" constant="20" id="dbZ-Qc-95S"/>
+                            <constraint firstItem="Saj-tP-5xa" firstAttribute="leading" secondItem="yeH-XM-5r3" secondAttribute="leading" constant="20" id="rlG-W7-gvY"/>
                         </constraints>
                     </view>
                     <connections>
@@ -737,38 +741,55 @@
                 </viewController>
                 <customObject id="tuY-zh-WaA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="723.5" y="270.5"/>
+            <point key="canvasLocation" x="654.5" y="-278"/>
         </scene>
-        <!--View Controller-->
+        <!--Artist View Controller-->
         <scene sceneID="ZkQ-6z-XV7">
             <objects>
-                <viewController id="qC4-HW-BtN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ArtistDrawVC" id="qC4-HW-BtN" customClass="ArtistViewController" sceneMemberID="viewController">
                     <view key="view" id="nL0-hS-U3t">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="493" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jmh-Kn-HVU" customClass="ArtistDraw">
+                                <rect key="frame" x="36" y="29" width="430" height="243"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="leading" secondItem="nL0-hS-U3t" secondAttribute="leading" constant="20" symbolic="YES" id="67o-CZ-0B9"/>
+                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="top" secondItem="nL0-hS-U3t" secondAttribute="top" constant="20" symbolic="YES" id="NLo-QE-kp7"/>
+                            <constraint firstAttribute="bottom" secondItem="Jmh-Kn-HVU" secondAttribute="bottom" constant="37" id="QRq-Ze-HuB"/>
+                            <constraint firstAttribute="trailing" secondItem="Jmh-Kn-HVU" secondAttribute="trailing" id="Swf-Gy-V6D"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="5GE-Lj-z2U" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="648" y="719"/>
+            <point key="canvasLocation" x="705.5" y="118"/>
         </scene>
         <!--Shape Draw Controller-->
         <scene sceneID="szf-bB-P8X">
             <objects>
                 <viewController id="rEG-KY-ENe" customClass="ShapeDrawController" sceneMemberID="viewController">
                     <view key="view" id="NrU-g8-uNI">
-                        <rect key="frame" x="0.0" y="0.0" width="658" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="555" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YMY-xd-MbL" customClass="ShapeDraw">
-                                <rect key="frame" x="128" y="29" width="449" height="243"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YMY-xd-MbL" customClass="ShapeDraw">
+                                <rect key="frame" x="44" y="37" width="449" height="243"/>
                             </customView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="YMY-xd-MbL" firstAttribute="top" secondItem="NrU-g8-uNI" secondAttribute="top" constant="20" symbolic="YES" id="4Si-Qg-wLi"/>
+                            <constraint firstItem="YMY-xd-MbL" firstAttribute="leading" secondItem="NrU-g8-uNI" secondAttribute="leading" constant="41" id="K3X-Y4-wIU"/>
+                            <constraint firstAttribute="bottom" secondItem="YMY-xd-MbL" secondAttribute="bottom" constant="37" id="aR7-40-nbI"/>
+                            <constraint firstAttribute="trailing" secondItem="YMY-xd-MbL" secondAttribute="trailing" constant="63" id="pe1-un-tfh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="FKe-Id-nXb" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1401" y="795"/>
+            <point key="canvasLocation" x="665.5" y="595"/>
         </scene>
     </scenes>
 </document>

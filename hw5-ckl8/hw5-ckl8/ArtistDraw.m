@@ -1,29 +1,21 @@
 //
-//  PathDraw.m
+//  ArtistDraw.m
 //  hw5-ckl8
 //
-//  Created by rlam on 3/13/15.
+//  Created by rlam on 3/14/15.
 //  Copyright (c) 2015 ronl. All rights reserved.
 //
-
-#import "PathDraw.h"
 IB_DESIGNABLE
-@interface PathDraw()
-@property  (copy, nonatomic) NSArray *numbers;
+#import "ArtistDraw.h"
 
+@interface  ArtistDraw ()
+@property (copy, nonatomic) NSArray *numbers;
 @end
 
-
-@implementation PathDraw
-
--(void)redrawForNumbers:(NSArray*)numbers
-{
-    self.numbers = numbers;
-    [self setNeedsDisplay:YES];
-}
+@implementation ArtistDraw
 
 - (void)drawRect:(NSRect)dirtyRect {
-    [super drawRect:dirtyRect];
+//    [super drawRect:dirtyRect];
 //    NSColor *blue = [NSColor blueColor];
 //    [blue set];
 //    
@@ -43,15 +35,15 @@ IB_DESIGNABLE
 //    [linePath lineToPoint: CGPointMake(self.bounds.size.width, 0)];
 //    [[NSColor colorWithPatternImage:[NSImage imageNamed:@"blue-plaid-pattern"]] set];
 //    [linePath fill];
-
-    // Drawing code here.
-    [super drawRect:dirtyRect];
-    NSColor *blue = [NSColor blueColor];
-    [blue set];
-    NSBezierPath *path = [NSBezierPath bezierPathWithOvalInRect:self.frame];
+//    // Drawing code here.
     
-    [path stroke];
-    [path fill];
+//    [super drawRect:dirtyRect];
+//    NSColor *blue = [NSColor blueColor];
+//    [blue set];
+//    NSBezierPath *path = [NSBezierPath bezierPathWithOvalInRect:self.frame];
+//    
+//    [path stroke];
+//    [path fill];
 }
 
 @end

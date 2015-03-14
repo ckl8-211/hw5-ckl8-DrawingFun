@@ -14,24 +14,36 @@
 		<string>https://github.com/ckl8-211/HW5-DrawingFun.git</string>
 		<key>AB28942A5450AB398681B27D9A6F28D46D122D71</key>
 		<string>https://github.com/UW-PCE-Apple-Winter-2015/HW3-TodoApp-Writeup.git</string>
+		<key>E719988320E36C141F3C8AFF86AD1A3122D07D6D</key>
+		<string>https://github.com/ckl8-211/hw5-ckl8-DrawingFun.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>hw5-ckl8/hw5-ckl8.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7DB042FC0DBD2BD360284B3C49B7EA281D9E56A3</key>
-		<string>../../..</string>
+		<string>../../../../HW5-DrawingFun</string>
 		<key>AB28942A5450AB398681B27D9A6F28D46D122D71</key>
 		<string>../../../../XcodeProjects</string>
+		<key>E719988320E36C141F3C8AFF86AD1A3122D07D6D</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ckl8-211/HW5-DrawingFun.git</string>
+	<string>https://github.com/ckl8-211/hw5-ckl8-DrawingFun.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7DB042FC0DBD2BD360284B3C49B7EA281D9E56A3</string>
+	<string>E719988320E36C141F3C8AFF86AD1A3122D07D6D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E719988320E36C141F3C8AFF86AD1A3122D07D6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hw5-ckl8-DrawingFun</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
