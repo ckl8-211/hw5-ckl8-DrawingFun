@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764521111AB488B000FE1236 /* RandomPercentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 764521101AB488B000FE1236 /* RandomPercentGenerator.m */; };
+		7691ACD11AB3C35900EF22CD /* PathDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD01AB3C35900EF22CD /* PathDraw.m */; };
+		7691ACD41AB3C37A00EF22CD /* ShapeDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD31AB3C37A00EF22CD /* ShapeDraw.m */; };
+		7691ACD71AB3C8CF00EF22CD /* PathDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD61AB3C8CF00EF22CD /* PathDrawController.m */; };
+		7691ACDF1AB3CD6200EF22CD /* ShapeDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACDE1AB3CD6200EF22CD /* ShapeDrawController.m */; };
+		76F268ED1A96CE88003FD00B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F268EC1A96CE88003FD00B /* AppDelegate.m */; };
+		76F268EF1A96CE88003FD00B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F268EE1A96CE88003FD00B /* main.m */; };
+		76F268F41A96CE88003FD00B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F268F31A96CE88003FD00B /* Images.xcassets */; };
+		76F268F71A96CE88003FD00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F268F51A96CE88003FD00B /* Main.storyboard */; };
+		76F269031A96CE88003FD00B /* hw5_ckl8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F269021A96CE88003FD00B /* hw5_ckl8Tests.m */; };
+		76F2690E1A96CF60003FD00B /* DrawShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F2690D1A96CF60003FD00B /* DrawShape.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F268FD1A96CE88003FD00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F268DE1A96CE88003FD00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F268E51A96CE88003FD00B;
+			remoteInfo = "hw5-ckl8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7645210F1AB488B000FE1236 /* RandomPercentGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPercentGenerator.h; sourceTree = "<group>"; };
+		764521101AB488B000FE1236 /* RandomPercentGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPercentGenerator.m; sourceTree = "<group>"; };
+		7691ACCF1AB3C35900EF22CD /* PathDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDraw.h; sourceTree = "<group>"; };
+		7691ACD01AB3C35900EF22CD /* PathDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDraw.m; sourceTree = "<group>"; };
+		7691ACD21AB3C37900EF22CD /* ShapeDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeDraw.h; sourceTree = "<group>"; };
+		7691ACD31AB3C37A00EF22CD /* ShapeDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeDraw.m; sourceTree = "<group>"; };
+		7691ACD51AB3C8CF00EF22CD /* PathDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDrawController.h; sourceTree = "<group>"; };
+		7691ACD61AB3C8CF00EF22CD /* PathDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDrawController.m; sourceTree = "<group>"; };
+		7691ACDD1AB3CD6200EF22CD /* ShapeDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeDrawController.h; sourceTree = "<group>"; };
+		7691ACDE1AB3CD6200EF22CD /* ShapeDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeDrawController.m; sourceTree = "<group>"; };
+		76F268E61A96CE88003FD00B /* hw5-ckl8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw5-ckl8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F268EA1A96CE88003FD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F268EB1A96CE88003FD00B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76F268EC1A96CE88003FD00B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76F268EE1A96CE88003FD00B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76F268F31A96CE88003FD00B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76F268F61A96CE88003FD00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F268FC1A96CE88003FD00B /* hw5-ckl8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw5-ckl8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F269011A96CE88003FD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F269021A96CE88003FD00B /* hw5_ckl8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw5_ckl8Tests.m; sourceTree = "<group>"; };
+		76F2690C1A96CF60003FD00B /* DrawShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShape.h; sourceTree = "<group>"; };
+		76F2690D1A96CF60003FD00B /* DrawShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShape.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F268E31A96CE88003FD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F268F91A96CE88003FD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		764521121AB48E4700FE1236 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7691ACCF1AB3C35900EF22CD /* PathDraw.h */,
+				7691ACD01AB3C35900EF22CD /* PathDraw.m */,
+				7691ACD21AB3C37900EF22CD /* ShapeDraw.h */,
+				7691ACD31AB3C37A00EF22CD /* ShapeDraw.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		764521131AB48ECE00FE1236 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				7691ACDD1AB3CD6200EF22CD /* ShapeDrawController.h */,
+				7691ACDE1AB3CD6200EF22CD /* ShapeDrawController.m */,
+				7691ACD51AB3C8CF00EF22CD /* PathDrawController.h */,
+				7691ACD61AB3C8CF00EF22CD /* PathDrawController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		76F268DD1A96CE88003FD00B = {
+			isa = PBXGroup;
+			children = (
+				76F268E81A96CE88003FD00B /* hw5-ckl8 */,
+				76F268FF1A96CE88003FD00B /* hw5-ckl8Tests */,
+				76F268E71A96CE88003FD00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F268E71A96CE88003FD00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F268E61A96CE88003FD00B /* hw5-ckl8.app */,
+				76F268FC1A96CE88003FD00B /* hw5-ckl8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F268E81A96CE88003FD00B /* hw5-ckl8 */ = {
+			isa = PBXGroup;
+			children = (
+				764521131AB48ECE00FE1236 /* Control */,
+				764521121AB48E4700FE1236 /* Views */,
+				76F268EB1A96CE88003FD00B /* AppDelegate.h */,
+				76F268EC1A96CE88003FD00B /* AppDelegate.m */,
+				76F268F31A96CE88003FD00B /* Images.xcassets */,
+				76F2690D1A96CF60003FD00B /* DrawShape.m */,
+				76F268F51A96CE88003FD00B /* Main.storyboard */,
+				7645210F1AB488B000FE1236 /* RandomPercentGenerator.h */,
+				764521101AB488B000FE1236 /* RandomPercentGenerator.m */,
+				76F268E91A96CE88003FD00B /* Supporting Files */,
+				76F2690C1A96CF60003FD00B /* DrawShape.h */,
+			);
+			path = "hw5-ckl8";
+			sourceTree = "<group>";
+		};
+		76F268E91A96CE88003FD00B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76F268EA1A96CE88003FD00B /* Info.plist */,
+				76F268EE1A96CE88003FD00B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76F268FF1A96CE88003FD00B /* hw5-ckl8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76F269021A96CE88003FD00B /* hw5_ckl8Tests.m */,
+				76F269001A96CE88003FD00B /* Supporting Files */,
+			);
+			path = "hw5-ckl8Tests";
+			sourceTree = "<group>";
+		};
+		76F269001A96CE88003FD00B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76F269011A96CE88003FD00B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F268E51A96CE88003FD00B /* hw5-ckl8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F269061A96CE88003FD00B /* Build configuration list for PBXNativeTarget "hw5-ckl8" */;
+			buildPhases = (
+				76F268E21A96CE88003FD00B /* Sources */,
+				76F268E31A96CE88003FD00B /* Frameworks */,
+				76F268E41A96CE88003FD00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw5-ckl8";
+			productName = "hw5-ckl8";
+			productReference = 76F268E61A96CE88003FD00B /* hw5-ckl8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F268FB1A96CE88003FD00B /* hw5-ckl8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F269091A96CE88003FD00B /* Build configuration list for PBXNativeTarget "hw5-ckl8Tests" */;
+			buildPhases = (
+				76F268F81A96CE88003FD00B /* Sources */,
+				76F268F91A96CE88003FD00B /* Frameworks */,
+				76F268FA1A96CE88003FD00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F268FE1A96CE88003FD00B /* PBXTargetDependency */,
+			);
+			name = "hw5-ckl8Tests";
+			productName = "hw5-ckl8Tests";
+			productReference = 76F268FC1A96CE88003FD00B /* hw5-ckl8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F268DE1A96CE88003FD00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ronl;
+				TargetAttributes = {
+					76F268E51A96CE88003FD00B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					76F268FB1A96CE88003FD00B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 76F268E51A96CE88003FD00B;
+					};
+				};
+			};
+			buildConfigurationList = 76F268E11A96CE88003FD00B /* Build configuration list for PBXProject "hw5-ckl8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F268DD1A96CE88003FD00B;
+			productRefGroup = 76F268E71A96CE88003FD00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F268E51A96CE88003FD00B /* hw5-ckl8 */,
+				76F268FB1A96CE88003FD00B /* hw5-ckl8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F268E41A96CE88003FD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F268F41A96CE88003FD00B /* Images.xcassets in Resources */,
+				76F268F71A96CE88003FD00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F268FA1A96CE88003FD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F268E21A96CE88003FD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7691ACD71AB3C8CF00EF22CD /* PathDrawController.m in Sources */,
+				76F2690E1A96CF60003FD00B /* DrawShape.m in Sources */,
+				7691ACD41AB3C37A00EF22CD /* ShapeDraw.m in Sources */,
+				76F268EF1A96CE88003FD00B /* main.m in Sources */,
+				764521111AB488B000FE1236 /* RandomPercentGenerator.m in Sources */,
+				7691ACD11AB3C35900EF22CD /* PathDraw.m in Sources */,
+				7691ACDF1AB3CD6200EF22CD /* ShapeDrawController.m in Sources */,
+				76F268ED1A96CE88003FD00B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F268F81A96CE88003FD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F269031A96CE88003FD00B /* hw5_ckl8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76F268FE1A96CE88003FD00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F268E51A96CE88003FD00B /* hw5-ckl8 */;
+			targetProxy = 76F268FD1A96CE88003FD00B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76F268F51A96CE88003FD00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F268F61A96CE88003FD00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F269041A96CE88003FD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		76F269051A96CE88003FD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76F269071A96CE88003FD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hw5-ckl8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76F269081A96CE88003FD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hw5-ckl8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76F2690A1A96CE88003FD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hw5-ckl8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw5-ckl8.app/Contents/MacOS/hw5-ckl8";
+			};
+			name = Debug;
+		};
+		76F2690B1A96CE88003FD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hw5-ckl8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw5-ckl8.app/Contents/MacOS/hw5-ckl8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F268E11A96CE88003FD00B /* Build configuration list for PBXProject "hw5-ckl8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F269041A96CE88003FD00B /* Debug */,
+				76F269051A96CE88003FD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F269061A96CE88003FD00B /* Build configuration list for PBXNativeTarget "hw5-ckl8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F269071A96CE88003FD00B /* Debug */,
+				76F269081A96CE88003FD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F269091A96CE88003FD00B /* Build configuration list for PBXNativeTarget "hw5-ckl8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F2690A1A96CE88003FD00B /* Debug */,
+				76F2690B1A96CE88003FD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F268DE1A96CE88003FD00B /* Project object */;
+}
