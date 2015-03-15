@@ -10,6 +10,7 @@
 		764521111AB488B000FE1236 /* RandomPercentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 764521101AB488B000FE1236 /* RandomPercentGenerator.m */; };
 		766D40EA1AB4B12E008EE5A9 /* ArtistDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D40E81AB4B12E008EE5A9 /* ArtistDrawController.m */; };
 		766D40EE1AB4B20E008EE5A9 /* ArtistDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 766D40ED1AB4B20E008EE5A9 /* ArtistDraw.m */; };
+		766D40FF1AB4FB32008EE5A9 /* MyPictures.png in Resources */ = {isa = PBXBuildFile; fileRef = 766D40FE1AB4FB32008EE5A9 /* MyPictures.png */; };
 		7691ACD11AB3C35900EF22CD /* PathDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD01AB3C35900EF22CD /* PathDraw.m */; };
 		7691ACD41AB3C37A00EF22CD /* ShapeDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD31AB3C37A00EF22CD /* ShapeDraw.m */; };
 		7691ACD71AB3C8CF00EF22CD /* PathDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7691ACD61AB3C8CF00EF22CD /* PathDrawController.m */; };
@@ -38,6 +39,7 @@
 		766D40E81AB4B12E008EE5A9 /* ArtistDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDrawController.m; sourceTree = "<group>"; };
 		766D40EC1AB4B20E008EE5A9 /* ArtistDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDraw.h; sourceTree = "<group>"; };
 		766D40ED1AB4B20E008EE5A9 /* ArtistDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDraw.m; sourceTree = "<group>"; };
+		766D40FE1AB4FB32008EE5A9 /* MyPictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyPictures.png; sourceTree = "<group>"; };
 		7691ACCF1AB3C35900EF22CD /* PathDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDraw.h; sourceTree = "<group>"; };
 		7691ACD01AB3C35900EF22CD /* PathDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDraw.m; sourceTree = "<group>"; };
 		7691ACD21AB3C37900EF22CD /* ShapeDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeDraw.h; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		76F268E81A96CE88003FD00B /* hw5-ckl8 */ = {
 			isa = PBXGroup;
 			children = (
+				766D40FE1AB4FB32008EE5A9 /* MyPictures.png */,
 				766D40F11AB4B43F008EE5A9 /* StoryBoards */,
 				766D40F01AB4B407008EE5A9 /* Appl */,
 				766D40EF1AB4B3E3008EE5A9 /* Utils */,
@@ -268,6 +271,7 @@
 			files = (
 				76F268F41A96CE88003FD00B /* Images.xcassets in Resources */,
 				76F268F71A96CE88003FD00B /* Main.storyboard in Resources */,
+				766D40FF1AB4FB32008EE5A9 /* MyPictures.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

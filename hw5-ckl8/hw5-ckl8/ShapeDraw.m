@@ -17,11 +17,7 @@ IB_DESIGNABLE
     [super drawRect:dirtyRect];
     NSColor *blue = [NSColor blueColor];
     [blue set];
-    NSBezierPath *path = [NSBezierPath bezierPathWithOvalInRect:self.frame];
 
-    [path stroke];
-    [path fill];
-    // Drawing code here.
 }
 
 @end

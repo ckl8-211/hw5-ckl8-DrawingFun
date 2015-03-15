@@ -14,9 +14,13 @@
 
 @implementation ArtistDrawController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do view setup here.
-}
 
+- (id)init
+{
+    self = [super initWithNibName:NSStringFromClass(self.class) bundle:nil];
+    if (self) {
+        // Initialization code here.
+    }
+    return self;
+}
 @end

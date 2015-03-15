@@ -644,30 +644,30 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="-25.5" y="-347"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="hw5-ckl8" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="229"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-                        <toolbar key="toolbar" implicitIdentifier="E195FE66-CB80-45F5-825C-49B85F5205E1" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="eO8-Zs-BMf">
+                        <toolbar key="toolbar" implicitIdentifier="21B20F9E-093A-4D15-B216-86C615654832" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="DKN-Hx-4Jc">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Avj-V4-Xmf"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="KSj-VQ-tro"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="T5Q-tq-4dT"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="Kg9-47-hWb"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="nQP-AZ-9ep"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="tVy-1u-Yxm"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="Qpb-Hd-JbU"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="5U9-vy-E4i"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="zAj-7a-AL4"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="7PC-Xs-wTd"/>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="Avj-V4-Xmf"/>
-                                <toolbarItem reference="KSj-VQ-tro"/>
-                                <toolbarItem reference="nQP-AZ-9ep"/>
-                                <toolbarItem reference="T5Q-tq-4dT"/>
+                                <toolbarItem reference="tVy-1u-Yxm"/>
+                                <toolbarItem reference="Qpb-Hd-JbU"/>
+                                <toolbarItem reference="7PC-Xs-wTd"/>
+                                <toolbarItem reference="5U9-vy-E4i"/>
                             </defaultToolbarItems>
                         </toolbar>
                     </window>
@@ -677,12 +677,12 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3" y="319.5"/>
+            <point key="canvasLocation" x="-3" y="-58.5"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="asr-dA-M9R">
             <objects>
-                <tabViewController selectedTabViewItemIndex="0" id="uJh-Bv-1aD" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="2" id="uJh-Bv-1aD" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem label="Path Draw Controller" identifier="" id="M54-Gp-ceZ"/>
                         <tabViewItem label="Shape Draw Controller" identifier="" id="YzC-mO-hv5"/>
@@ -702,7 +702,7 @@
                 </tabViewController>
                 <customObject id="yqx-Jz-n1W" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="726"/>
+            <point key="canvasLocation" x="-18" y="330"/>
         </scene>
         <!--Path Draw Controller-->
         <scene sceneID="Xan-Bh-JRc">
@@ -712,8 +712,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="499" height="310"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPE-pP-Vou" customClass="PathDraw">
-                                <rect key="frame" x="30" y="20" width="449" height="270"/>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="nPE-pP-Vou" customClass="PathDraw">
+                                <rect key="frame" x="33" y="53" width="446" height="237"/>
                             </customView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Saj-tP-5xa">
                                 <rect key="frame" x="14" y="13" width="88" height="32"/>
@@ -727,8 +727,8 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="nPE-pP-Vou" firstAttribute="leading" secondItem="Saj-tP-5xa" secondAttribute="trailing" constant="8" symbolic="YES" id="Hsd-13-3Se"/>
-                            <constraint firstAttribute="bottom" secondItem="nPE-pP-Vou" secondAttribute="bottom" constant="20" id="Ln0-Vv-Z4l"/>
+                            <constraint firstItem="nPE-pP-Vou" firstAttribute="leading" secondItem="Saj-tP-5xa" secondAttribute="trailing" constant="-63" id="Hsd-13-3Se"/>
+                            <constraint firstAttribute="bottom" secondItem="nPE-pP-Vou" secondAttribute="bottom" constant="53" id="Ln0-Vv-Z4l"/>
                             <constraint firstItem="nPE-pP-Vou" firstAttribute="top" secondItem="yeH-XM-5r3" secondAttribute="top" constant="20" id="PL7-T4-LnA"/>
                             <constraint firstAttribute="bottom" secondItem="Saj-tP-5xa" secondAttribute="bottom" constant="20" id="awE-4x-NNy"/>
                             <constraint firstAttribute="trailing" secondItem="nPE-pP-Vou" secondAttribute="trailing" constant="20" id="dbZ-Qc-95S"/>
@@ -748,24 +748,24 @@
             <objects>
                 <viewController storyboardIdentifier="ArtistDrawVC" id="qC4-HW-BtN" customClass="ArtistViewController" sceneMemberID="viewController">
                     <view key="view" id="nL0-hS-U3t">
-                        <rect key="frame" x="0.0" y="0.0" width="493" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="516" height="382"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jmh-Kn-HVU" customClass="ArtistDraw">
-                                <rect key="frame" x="36" y="29" width="430" height="243"/>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Jmh-Kn-HVU" customClass="ArtistDraw">
+                                <rect key="frame" x="36" y="29" width="453" height="325"/>
                             </customView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="leading" secondItem="nL0-hS-U3t" secondAttribute="leading" constant="20" symbolic="YES" id="67o-CZ-0B9"/>
-                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="top" secondItem="nL0-hS-U3t" secondAttribute="top" constant="20" symbolic="YES" id="NLo-QE-kp7"/>
-                            <constraint firstAttribute="bottom" secondItem="Jmh-Kn-HVU" secondAttribute="bottom" constant="37" id="QRq-Ze-HuB"/>
-                            <constraint firstAttribute="trailing" secondItem="Jmh-Kn-HVU" secondAttribute="trailing" id="Swf-Gy-V6D"/>
+                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="top" secondItem="nL0-hS-U3t" secondAttribute="top" constant="28" id="CCv-t0-TQ0"/>
+                            <constraint firstAttribute="trailing" secondItem="Jmh-Kn-HVU" secondAttribute="trailing" constant="27" id="HeJ-Rq-ev6"/>
+                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="leading" secondItem="nL0-hS-U3t" secondAttribute="leading" constant="36" id="oHa-0r-jry"/>
+                            <constraint firstItem="Jmh-Kn-HVU" firstAttribute="centerY" secondItem="nL0-hS-U3t" secondAttribute="centerY" id="zSE-6h-imY"/>
                         </constraints>
                     </view>
                 </viewController>
                 <customObject id="5GE-Lj-z2U" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705.5" y="118"/>
+            <point key="canvasLocation" x="663" y="160"/>
         </scene>
         <!--Shape Draw Controller-->
         <scene sceneID="szf-bB-P8X">
@@ -775,21 +775,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="555" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YMY-xd-MbL" customClass="ShapeDraw">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="YMY-xd-MbL" customClass="ShapeDraw">
                                 <rect key="frame" x="44" y="37" width="449" height="243"/>
                             </customView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="YMY-xd-MbL" firstAttribute="top" secondItem="NrU-g8-uNI" secondAttribute="top" constant="20" symbolic="YES" id="4Si-Qg-wLi"/>
-                            <constraint firstItem="YMY-xd-MbL" firstAttribute="leading" secondItem="NrU-g8-uNI" secondAttribute="leading" constant="41" id="K3X-Y4-wIU"/>
+                            <constraint firstItem="YMY-xd-MbL" firstAttribute="leading" secondItem="NrU-g8-uNI" secondAttribute="leading" constant="44" id="K3X-Y4-wIU"/>
                             <constraint firstAttribute="bottom" secondItem="YMY-xd-MbL" secondAttribute="bottom" constant="37" id="aR7-40-nbI"/>
-                            <constraint firstAttribute="trailing" secondItem="YMY-xd-MbL" secondAttribute="trailing" constant="63" id="pe1-un-tfh"/>
+                            <constraint firstAttribute="trailing" secondItem="YMY-xd-MbL" secondAttribute="trailing" constant="62" id="pe1-un-tfh"/>
                         </constraints>
                     </view>
                 </viewController>
                 <customObject id="FKe-Id-nXb" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="665.5" y="595"/>
+            <point key="canvasLocation" x="412.5" y="583"/>
         </scene>
     </scenes>
 </document>
